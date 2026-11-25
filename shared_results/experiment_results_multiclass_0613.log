@@ -1,0 +1,118 @@
+2026-06-12 22:23:05,013 | 🚀 Starting Robustness Pipeline. Running on: cuda
+2026-06-12 22:23:05,057 | Loaded 6000 rows from 18 CSV files.
+2026-06-12 22:23:05,057 | Skipping global silence statistics computation (flag set to false).
+2026-06-12 22:23:05,061 | ======================================================================
+2026-06-12 22:23:05,061 | 🔥 STARTING EXPERIMENT: multiclass_6label
+2026-06-12 22:23:05,062 | Task: multiclass | Num classes: 6
+2026-06-12 22:23:05,063 | Data -> Train: 4800 | Dev: 600 | Test: 600
+2026-06-12 22:23:05,063 | Average SSR: None
+2026-06-12 22:23:05,064 | ======================================================================
+2026-06-12 22:25:17,610 | 🚀 Starting Robustness Pipeline. Running on: cuda
+2026-06-12 22:25:17,659 | Loaded 6000 rows from 18 CSV files.
+2026-06-12 22:25:17,659 | Skipping global silence statistics computation (flag set to false).
+2026-06-12 22:25:17,665 | ======================================================================
+2026-06-12 22:25:17,666 | 🔥 STARTING EXPERIMENT: multiclass_6label
+2026-06-12 22:25:17,666 | Task: multiclass | Num classes: 6
+2026-06-12 22:25:17,667 | Data -> Train: 4800 | Dev: 600 | Test: 600
+2026-06-12 22:25:17,667 | Average SSR: None
+2026-06-12 22:25:17,668 | ======================================================================
+2026-06-12 22:31:48,344 | 🚀 Starting Robustness Pipeline. Running on: cuda
+2026-06-12 22:31:48,395 | Loaded 6000 rows from 18 CSV files.
+2026-06-12 22:31:48,395 | Skipping global silence statistics computation (flag set to false).
+2026-06-12 22:31:48,400 | ======================================================================
+2026-06-12 22:31:48,400 | 🔥 STARTING EXPERIMENT: multiclass_6label
+2026-06-12 22:31:48,401 | Task: multiclass | Num classes: 6
+2026-06-12 22:31:48,402 | Data -> Train: 4800 | Dev: 600 | Test: 600
+2026-06-12 22:31:48,403 | Average SSR: None
+2026-06-12 22:31:48,403 | ======================================================================
+2026-06-12 22:31:59,606 | 🚀 Starting Robustness Pipeline. Running on: cuda
+2026-06-12 22:31:59,648 | Loaded 6000 rows from 18 CSV files.
+2026-06-12 22:31:59,648 | Skipping global silence statistics computation (flag set to false).
+2026-06-12 22:31:59,654 | ======================================================================
+2026-06-12 22:31:59,654 | 🔥 STARTING EXPERIMENT: multiclass_6label
+2026-06-12 22:31:59,654 | Task: multiclass | Num classes: 6
+2026-06-12 22:31:59,655 | Data -> Train: 4800 | Dev: 600 | Test: 600
+2026-06-12 22:31:59,656 | Average SSR: None
+2026-06-12 22:31:59,656 | ======================================================================
+2026-06-12 22:34:35,592 | 🚀 Starting Robustness Pipeline. Running on: cuda
+2026-06-12 22:34:35,656 | Loaded 6000 rows from 18 CSV files.
+2026-06-12 22:34:35,657 | Skipping global silence statistics computation (flag set to false).
+2026-06-12 22:34:35,666 | ======================================================================
+2026-06-12 22:34:35,666 | 🔥 STARTING EXPERIMENT: multiclass_6label
+2026-06-12 22:34:35,687 | Task: multiclass | Num classes: 6
+2026-06-12 22:34:35,689 | Data -> Train: 4800 | Dev: 600 | Test: 600
+2026-06-12 22:34:35,691 | Average SSR: None
+2026-06-12 22:34:35,693 | ======================================================================
+2026-06-12 22:36:33,838 | 🚀 Starting Robustness Pipeline. Running on: cuda
+2026-06-12 22:36:33,879 | Loaded 6000 rows from 18 CSV files.
+2026-06-12 22:36:33,879 | Skipping global silence statistics computation (flag set to false).
+2026-06-12 22:36:33,885 | ======================================================================
+2026-06-12 22:36:33,885 | 🔥 STARTING EXPERIMENT: multiclass_6label
+2026-06-12 22:36:33,886 | Task: multiclass | Num classes: 6
+2026-06-12 22:36:33,887 | Data -> Train: 4800 | Dev: 600 | Test: 600
+2026-06-12 22:36:33,888 | Average SSR: None
+2026-06-12 22:36:33,889 | ======================================================================
+2026-06-12 23:52:49,858 | 🚀 Starting Robustness Pipeline. Running on: cuda
+2026-06-12 23:52:49,900 | Loaded 6000 rows from 18 CSV files.
+2026-06-12 23:52:49,901 | Skipping global silence statistics computation (flag set to false).
+2026-06-12 23:52:49,906 | ======================================================================
+2026-06-12 23:52:49,907 | 🔥 STARTING EXPERIMENT: multiclass_6label
+2026-06-12 23:52:49,907 | Task: multiclass | Num classes: 6
+2026-06-12 23:52:49,908 | Data -> Train: 4800 | Dev: 600 | Test: 600
+2026-06-12 23:52:49,908 | Average SSR: None
+2026-06-12 23:52:49,909 | ======================================================================
+2026-06-13 00:27:00,166 | Epoch 1/10 | train_loss=1.3593 | epoch_time_sec=1746.16 | dev_trim=False: acc=73.83%, macro_f1=0.7411 | dev_trim=True: acc=67.50%, macro_f1=0.6786
+2026-06-13 00:56:13,534 | Epoch 2/10 | train_loss=0.7123 | epoch_time_sec=1399.70 | dev_trim=False: acc=85.00%, macro_f1=0.8494 | dev_trim=True: acc=77.83%, macro_f1=0.7786
+2026-06-13 01:26:39,201 | Epoch 3/10 | train_loss=0.4789 | epoch_time_sec=1481.68 | dev_trim=False: acc=89.67%, macro_f1=0.8968 | dev_trim=True: acc=84.00%, macro_f1=0.8376
+2026-06-13 02:01:46,016 | Epoch 4/10 | train_loss=0.3414 | epoch_time_sec=1680.31 | dev_trim=False: acc=93.17%, macro_f1=0.9315 | dev_trim=True: acc=87.83%, macro_f1=0.8788
+2026-06-13 02:36:58,291 | Epoch 5/10 | train_loss=0.2554 | epoch_time_sec=1755.86 | dev_trim=False: acc=92.83%, macro_f1=0.9292 | dev_trim=True: acc=87.00%, macro_f1=0.8686
+2026-06-13 03:06:01,920 | Epoch 6/10 | train_loss=0.2132 | epoch_time_sec=1407.46 | dev_trim=False: acc=94.83%, macro_f1=0.9482 | dev_trim=True: acc=89.00%, macro_f1=0.8887
+2026-06-13 03:35:19,242 | Epoch 7/10 | train_loss=0.1690 | epoch_time_sec=1361.48 | dev_trim=False: acc=95.67%, macro_f1=0.9558 | dev_trim=True: acc=91.00%, macro_f1=0.9097
+2026-06-13 04:11:00,197 | Epoch 8/10 | train_loss=0.1513 | epoch_time_sec=1739.80 | dev_trim=False: acc=95.50%, macro_f1=0.9555 | dev_trim=True: acc=92.17%, macro_f1=0.9224
+2026-06-13 04:48:27,746 | Epoch 9/10 | train_loss=0.1204 | epoch_time_sec=1906.38 | dev_trim=False: acc=94.17%, macro_f1=0.9416 | dev_trim=True: acc=89.17%, macro_f1=0.8922
+2026-06-13 05:14:40,659 | Epoch 10/10 | train_loss=0.1062 | epoch_time_sec=1271.48 | dev_trim=False: acc=96.67%, macro_f1=0.9666 | dev_trim=True: acc=91.33%, macro_f1=0.9127
+2026-06-13 05:14:40,660 | Training finished: multiclass_6label__trainDur_5.0s__trainTrim_0 | Total time: 19308.81s
+2026-06-13 05:17:04,353 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/0/0 | dev_acc=96.67% | test_acc=30.83% | test_f1=0.2716
+2026-06-13 05:19:18,657 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/0/1 | dev_acc=96.67% | test_acc=69.33% | test_f1=0.6946
+2026-06-13 05:21:24,436 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/0/0 | dev_acc=96.67% | test_acc=46.83% | test_f1=0.4593
+2026-06-13 05:23:21,117 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/0/1 | dev_acc=96.67% | test_acc=82.00% | test_f1=0.8201
+2026-06-13 05:25:08,318 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/0/0 | dev_acc=96.67% | test_acc=80.00% | test_f1=0.8005
+2026-06-13 05:27:46,854 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/0/1 | dev_acc=96.67% | test_acc=90.00% | test_f1=0.9012
+2026-06-13 05:30:09,235 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/0/0 | dev_acc=96.67% | test_acc=98.00% | test_f1=0.9800
+2026-06-13 05:32:36,283 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/0/1 | dev_acc=96.67% | test_acc=94.00% | test_f1=0.9411
+2026-06-13 05:34:57,239 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/1/0 | dev_acc=92.17% | test_acc=36.17% | test_f1=0.3315
+2026-06-13 05:37:25,185 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/1/1 | dev_acc=92.17% | test_acc=68.33% | test_f1=0.6868
+2026-06-13 05:39:50,095 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/1/0 | dev_acc=92.17% | test_acc=47.00% | test_f1=0.4656
+2026-06-13 05:42:12,525 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/1/1 | dev_acc=92.17% | test_acc=79.00% | test_f1=0.7938
+2026-06-13 05:44:30,019 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/1/0 | dev_acc=92.17% | test_acc=76.33% | test_f1=0.7682
+2026-06-13 05:47:12,267 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/1/1 | dev_acc=92.17% | test_acc=88.33% | test_f1=0.8855
+2026-06-13 05:49:37,361 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/1/0 | dev_acc=92.17% | test_acc=97.00% | test_f1=0.9705
+2026-06-13 05:52:15,197 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/1/1 | dev_acc=92.17% | test_acc=93.67% | test_f1=0.9385
+2026-06-13 06:15:25,829 | Epoch 1/10 | train_loss=1.4582 | epoch_time_sec=1194.61 | dev_trim=False: acc=64.00%, macro_f1=0.6130 | dev_trim=True: acc=66.83%, macro_f1=0.6541
+2026-06-13 06:32:29,528 | Epoch 2/10 | train_loss=0.8364 | epoch_time_sec=903.02 | dev_trim=False: acc=81.83%, macro_f1=0.8163 | dev_trim=True: acc=82.83%, macro_f1=0.8263
+2026-06-13 06:46:21,997 | Epoch 3/10 | train_loss=0.5296 | epoch_time_sec=732.63 | dev_trim=False: acc=88.00%, macro_f1=0.8799 | dev_trim=True: acc=88.17%, macro_f1=0.8816
+2026-06-13 07:04:40,022 | Epoch 4/10 | train_loss=0.3713 | epoch_time_sec=894.37 | dev_trim=False: acc=89.83%, macro_f1=0.8983 | dev_trim=True: acc=92.00%, macro_f1=0.9198
+2026-06-13 07:26:23,505 | Epoch 5/10 | train_loss=0.2904 | epoch_time_sec=1040.04 | dev_trim=False: acc=90.67%, macro_f1=0.9051 | dev_trim=True: acc=91.50%, macro_f1=0.9134
+2026-06-13 07:44:50,903 | Epoch 6/10 | train_loss=0.2182 | epoch_time_sec=910.01 | dev_trim=False: acc=93.83%, macro_f1=0.9384 | dev_trim=True: acc=94.17%, macro_f1=0.9416
+2026-06-13 07:59:39,226 | Epoch 7/10 | train_loss=0.1946 | epoch_time_sec=789.04 | dev_trim=False: acc=95.50%, macro_f1=0.9548 | dev_trim=True: acc=95.00%, macro_f1=0.9495
+2026-06-13 08:16:55,159 | Epoch 8/10 | train_loss=0.1697 | epoch_time_sec=833.25 | dev_trim=False: acc=96.50%, macro_f1=0.9649 | dev_trim=True: acc=96.50%, macro_f1=0.9649
+2026-06-13 08:37:43,659 | Epoch 9/10 | train_loss=0.1410 | epoch_time_sec=977.47 | dev_trim=False: acc=95.83%, macro_f1=0.9584 | dev_trim=True: acc=97.17%, macro_f1=0.9717
+2026-06-13 08:56:12,550 | Epoch 10/10 | train_loss=0.1583 | epoch_time_sec=978.36 | dev_trim=False: acc=96.67%, macro_f1=0.9665 | dev_trim=True: acc=97.17%, macro_f1=0.9716
+2026-06-13 08:56:12,551 | Training finished: multiclass_6label__trainDur_5.0s__trainTrim_1 | Total time: 11037.34s
+2026-06-13 08:58:13,888 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/0/0 | dev_acc=96.67% | test_acc=20.83% | test_f1=0.1483
+2026-06-13 08:59:45,902 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/0/1 | dev_acc=96.67% | test_acc=76.50% | test_f1=0.7666
+2026-06-13 09:00:13,476 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/0/0 | dev_acc=96.67% | test_acc=41.67% | test_f1=0.4253
+2026-06-13 09:00:41,015 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/0/1 | dev_acc=96.67% | test_acc=84.67% | test_f1=0.8471
+2026-06-13 09:01:04,573 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/0/0 | dev_acc=96.67% | test_acc=80.67% | test_f1=0.8124
+2026-06-13 09:01:28,464 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/0/1 | dev_acc=96.67% | test_acc=93.00% | test_f1=0.9304
+2026-06-13 09:01:59,067 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/0/0 | dev_acc=96.67% | test_acc=97.00% | test_f1=0.9701
+2026-06-13 09:02:25,948 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/0/1 | dev_acc=96.67% | test_acc=97.00% | test_f1=0.9702
+2026-06-13 09:03:03,991 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/1/0 | dev_acc=97.17% | test_acc=22.17% | test_f1=0.1903
+2026-06-13 09:03:39,852 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/1/1 | dev_acc=97.17% | test_acc=71.67% | test_f1=0.7181
+2026-06-13 09:04:18,789 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/1/0 | dev_acc=97.17% | test_acc=47.00% | test_f1=0.4760
+2026-06-13 09:04:38,904 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/1/1 | dev_acc=97.17% | test_acc=84.00% | test_f1=0.8406
+2026-06-13 09:05:00,674 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/1/0 | dev_acc=97.17% | test_acc=82.17% | test_f1=0.8239
+2026-06-13 09:05:27,815 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/1/1 | dev_acc=97.17% | test_acc=93.33% | test_f1=0.9337
+2026-06-13 09:05:49,868 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/1/0 | dev_acc=97.17% | test_acc=96.33% | test_f1=0.9636
+2026-06-13 09:06:13,509 | RESULT | pair=multiclass_6label | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/1/1 | dev_acc=97.17% | test_acc=96.17% | test_f1=0.9617
+2026-06-13 09:06:13,512 | 🎉 All experiments finished flawlessly.

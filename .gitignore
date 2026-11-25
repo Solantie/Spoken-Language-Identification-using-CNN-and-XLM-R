@@ -1,0 +1,10 @@
+.idea/
+
+*.pth
+
+*.log
+*.pt
+training_log*.csv
+__pycache__/
+*.py[cod]
+results/

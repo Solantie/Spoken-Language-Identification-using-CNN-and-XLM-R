@@ -1,0 +1,251 @@
+2026-06-12 23:04:59,915 | 🚀 Starting Robustness Pipeline. Running on: cuda
+2026-06-12 23:04:59,960 | Loaded 6000 rows from 18 CSV files.
+2026-06-12 23:04:59,960 | Computing per-audio leading silence statistics...
+2026-06-13 00:18:35,355 | Saved silence stats: /home/users2/lisn/teamlab/Lilium_task_4/results/lid_silence_experiment_outputs/silence_stats/global_per_audio_silence_stats.csv and /home/users2/lisn/teamlab/Lilium_task_4/results/lid_silence_experiment_outputs/silence_stats/global_aggregate_silence_stats_by_split_lang.csv
+2026-06-13 00:18:35,365 | ======================================================================
+2026-06-13 00:18:35,365 | 🔥 STARTING EXPERIMENT: Mandarin_Cantonese
+2026-06-13 00:18:35,365 | Data -> Train: 1600 | Dev: 200 | Test: 200
+2026-06-13 00:18:35,365 | Average SSR: 0.1655316292705381
+2026-06-13 00:18:35,365 | ======================================================================
+2026-06-13 00:26:15,395 | Epoch 1/1 | train_loss=0.5472 | epoch_time_sec=379.68 | dev_trim=False: acc=84.50%, macro_f1=0.8429 | dev_trim=True: acc=90.50%, macro_f1=0.9049
+2026-06-13 00:26:15,396 | Training finished: Mandarin_Cantonese__trainDur_5.0s__trainTrim_0 | Total time: 459.83s
+2026-06-13 00:27:01,200 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/0/0 | dev_acc=84.50% | test_acc=50.00% | test_f1=0.3420
+2026-06-13 00:27:47,522 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/0/1 | dev_acc=84.50% | test_acc=86.50% | test_f1=0.8640
+2026-06-13 00:28:29,971 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/0/0 | dev_acc=84.50% | test_acc=59.50% | test_f1=0.5155
+2026-06-13 00:29:13,022 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/0/1 | dev_acc=84.50% | test_acc=88.00% | test_f1=0.8797
+2026-06-13 00:30:20,581 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/0/0 | dev_acc=84.50% | test_acc=71.00% | test_f1=0.6872
+2026-06-13 00:31:23,315 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/0/1 | dev_acc=84.50% | test_acc=87.50% | test_f1=0.8750
+2026-06-13 00:32:12,131 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/0/0 | dev_acc=84.50% | test_acc=84.50% | test_f1=0.8425
+2026-06-13 00:33:10,015 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/0/1 | dev_acc=84.50% | test_acc=88.50% | test_f1=0.8849
+2026-06-13 00:34:07,626 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/1/0 | dev_acc=90.50% | test_acc=50.00% | test_f1=0.3420
+2026-06-13 00:35:05,369 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/1/1 | dev_acc=90.50% | test_acc=86.50% | test_f1=0.8640
+2026-06-13 00:36:02,089 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/1/0 | dev_acc=90.50% | test_acc=59.50% | test_f1=0.5155
+2026-06-13 00:36:57,206 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/1/1 | dev_acc=90.50% | test_acc=88.00% | test_f1=0.8797
+2026-06-13 00:37:53,992 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/1/0 | dev_acc=90.50% | test_acc=71.00% | test_f1=0.6872
+2026-06-13 00:38:47,120 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/1/1 | dev_acc=90.50% | test_acc=87.50% | test_f1=0.8750
+2026-06-13 00:39:41,855 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/1/0 | dev_acc=90.50% | test_acc=84.50% | test_f1=0.8425
+2026-06-13 00:40:40,348 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/1/1 | dev_acc=90.50% | test_acc=88.50% | test_f1=0.8849
+2026-06-13 00:50:46,317 | Epoch 1/1 | train_loss=0.6245 | epoch_time_sec=487.56 | dev_trim=False: acc=90.50%, macro_f1=0.9049 | dev_trim=True: acc=88.00%, macro_f1=0.8788
+2026-06-13 00:50:46,317 | Training finished: Mandarin_Cantonese__trainDur_5.0s__trainTrim_1 | Total time: 605.93s
+2026-06-13 00:51:42,672 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/0/0 | dev_acc=90.50% | test_acc=50.50% | test_f1=0.3443
+2026-06-13 00:52:40,492 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/0/1 | dev_acc=90.50% | test_acc=82.50% | test_f1=0.8212
+2026-06-13 00:53:40,021 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/0/0 | dev_acc=90.50% | test_acc=60.50% | test_f1=0.5320
+2026-06-13 00:54:39,778 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/0/1 | dev_acc=90.50% | test_acc=86.50% | test_f1=0.8632
+2026-06-13 00:55:40,176 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/0/0 | dev_acc=90.50% | test_acc=77.50% | test_f1=0.7651
+2026-06-13 00:56:39,886 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/0/1 | dev_acc=90.50% | test_acc=89.50% | test_f1=0.8942
+2026-06-13 00:57:40,190 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/0/0 | dev_acc=90.50% | test_acc=91.00% | test_f1=0.9099
+2026-06-13 00:58:40,567 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/0/1 | dev_acc=90.50% | test_acc=88.00% | test_f1=0.8794
+2026-06-13 00:59:41,580 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/1/0 | dev_acc=88.00% | test_acc=50.50% | test_f1=0.3443
+2026-06-13 01:00:41,279 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/1/1 | dev_acc=88.00% | test_acc=82.50% | test_f1=0.8212
+2026-06-13 01:01:41,161 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/1/0 | dev_acc=88.00% | test_acc=60.50% | test_f1=0.5320
+2026-06-13 01:02:42,057 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/1/1 | dev_acc=88.00% | test_acc=86.50% | test_f1=0.8632
+2026-06-13 01:03:44,019 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/1/0 | dev_acc=88.00% | test_acc=77.50% | test_f1=0.7651
+2026-06-13 01:04:43,697 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/1/1 | dev_acc=88.00% | test_acc=89.50% | test_f1=0.8942
+2026-06-13 01:05:43,969 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/1/0 | dev_acc=88.00% | test_acc=91.00% | test_f1=0.9099
+2026-06-13 01:06:45,156 | RESULT | pair=Mandarin_Cantonese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/1/1 | dev_acc=88.00% | test_acc=88.00% | test_f1=0.8794
+2026-06-13 01:06:45,170 | ======================================================================
+2026-06-13 01:06:45,170 | 🔥 STARTING EXPERIMENT: Mandarin_Japanese
+2026-06-13 01:06:45,170 | Data -> Train: 1600 | Dev: 200 | Test: 200
+2026-06-13 01:06:45,170 | Average SSR: 0.1414590901998853
+2026-06-13 01:06:45,170 | ======================================================================
+2026-06-13 01:16:47,165 | Epoch 1/1 | train_loss=0.4778 | epoch_time_sec=490.92 | dev_trim=False: acc=96.00%, macro_f1=0.9600 | dev_trim=True: acc=93.00%, macro_f1=0.9297
+2026-06-13 01:16:47,165 | Training finished: Mandarin_Japanese__trainDur_5.0s__trainTrim_0 | Total time: 601.95s
+2026-06-13 01:17:44,963 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/0/0 | dev_acc=96.00% | test_acc=54.00% | test_f1=0.5208
+2026-06-13 01:18:43,859 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/0/1 | dev_acc=96.00% | test_acc=87.50% | test_f1=0.8750
+2026-06-13 01:19:41,639 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/0/0 | dev_acc=96.00% | test_acc=70.00% | test_f1=0.6940
+2026-06-13 01:20:38,125 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/0/1 | dev_acc=96.00% | test_acc=93.50% | test_f1=0.9350
+2026-06-13 01:21:34,223 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/0/0 | dev_acc=96.00% | test_acc=87.50% | test_f1=0.8743
+2026-06-13 01:22:28,333 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/0/1 | dev_acc=96.00% | test_acc=94.50% | test_f1=0.9449
+2026-06-13 01:23:23,964 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/0/0 | dev_acc=96.00% | test_acc=98.50% | test_f1=0.9850
+2026-06-13 01:24:18,173 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/0/1 | dev_acc=96.00% | test_acc=97.50% | test_f1=0.9750
+2026-06-13 01:25:17,203 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/1/0 | dev_acc=93.00% | test_acc=54.00% | test_f1=0.5208
+2026-06-13 01:26:20,618 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/1/1 | dev_acc=93.00% | test_acc=87.50% | test_f1=0.8750
+2026-06-13 01:27:20,140 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/1/0 | dev_acc=93.00% | test_acc=70.00% | test_f1=0.6940
+2026-06-13 01:28:14,900 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/1/1 | dev_acc=93.00% | test_acc=93.50% | test_f1=0.9350
+2026-06-13 01:29:06,467 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/1/0 | dev_acc=93.00% | test_acc=87.50% | test_f1=0.8743
+2026-06-13 01:30:01,512 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/1/1 | dev_acc=93.00% | test_acc=94.50% | test_f1=0.9449
+2026-06-13 01:31:05,204 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/1/0 | dev_acc=93.00% | test_acc=98.50% | test_f1=0.9850
+2026-06-13 01:32:14,655 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/1/1 | dev_acc=93.00% | test_acc=97.50% | test_f1=0.9750
+2026-06-13 01:43:52,298 | Epoch 1/1 | train_loss=0.5415 | epoch_time_sec=558.55 | dev_trim=False: acc=88.00%, macro_f1=0.8788 | dev_trim=True: acc=94.00%, macro_f1=0.9399
+2026-06-13 01:43:52,298 | Training finished: Mandarin_Japanese__trainDur_5.0s__trainTrim_1 | Total time: 697.60s
+2026-06-13 01:44:57,229 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/0/0 | dev_acc=88.00% | test_acc=49.00% | test_f1=0.3531
+2026-06-13 01:46:04,026 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/0/1 | dev_acc=88.00% | test_acc=88.00% | test_f1=0.8797
+2026-06-13 01:47:04,155 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/0/0 | dev_acc=88.00% | test_acc=59.00% | test_f1=0.5250
+2026-06-13 01:48:33,458 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/0/1 | dev_acc=88.00% | test_acc=92.00% | test_f1=0.9200
+2026-06-13 01:49:42,285 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/0/0 | dev_acc=88.00% | test_acc=75.50% | test_f1=0.7419
+2026-06-13 01:50:51,953 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/0/1 | dev_acc=88.00% | test_acc=93.00% | test_f1=0.9299
+2026-06-13 01:52:01,965 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/0/0 | dev_acc=88.00% | test_acc=88.00% | test_f1=0.8785
+2026-06-13 01:53:11,027 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/0/1 | dev_acc=88.00% | test_acc=92.50% | test_f1=0.9247
+2026-06-13 01:54:21,554 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/1/0 | dev_acc=94.00% | test_acc=49.00% | test_f1=0.3531
+2026-06-13 01:55:30,977 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/1/1 | dev_acc=94.00% | test_acc=88.00% | test_f1=0.8797
+2026-06-13 01:56:41,989 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/1/0 | dev_acc=94.00% | test_acc=59.00% | test_f1=0.5250
+2026-06-13 01:57:52,600 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/1/1 | dev_acc=94.00% | test_acc=92.00% | test_f1=0.9200
+2026-06-13 01:59:03,653 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/1/0 | dev_acc=94.00% | test_acc=75.50% | test_f1=0.7419
+2026-06-13 02:00:13,479 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/1/1 | dev_acc=94.00% | test_acc=93.00% | test_f1=0.9299
+2026-06-13 02:01:23,690 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/1/0 | dev_acc=94.00% | test_acc=88.00% | test_f1=0.8785
+2026-06-13 02:02:33,809 | RESULT | pair=Mandarin_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/1/1 | dev_acc=94.00% | test_acc=92.50% | test_f1=0.9247
+2026-06-13 02:02:33,824 | ======================================================================
+2026-06-13 02:02:33,824 | 🔥 STARTING EXPERIMENT: Cantonese_Japanese
+2026-06-13 02:02:33,824 | Data -> Train: 1600 | Dev: 200 | Test: 200
+2026-06-13 02:02:33,824 | Average SSR: 0.1696750090485147
+2026-06-13 02:02:33,824 | ======================================================================
+2026-06-13 02:14:39,287 | Epoch 1/1 | train_loss=0.3806 | epoch_time_sec=584.51 | dev_trim=False: acc=96.00%, macro_f1=0.9600 | dev_trim=True: acc=80.50%, macro_f1=0.7981
+2026-06-13 02:14:39,287 | Training finished: Cantonese_Japanese__trainDur_5.0s__trainTrim_0 | Total time: 725.41s
+2026-06-13 02:15:50,593 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/0/0 | dev_acc=96.00% | test_acc=72.00% | test_f1=0.7159
+2026-06-13 02:17:00,659 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/0/1 | dev_acc=96.00% | test_acc=81.00% | test_f1=0.8081
+2026-06-13 02:18:12,952 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/0/0 | dev_acc=96.00% | test_acc=77.50% | test_f1=0.7730
+2026-06-13 02:19:26,174 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/0/1 | dev_acc=96.00% | test_acc=87.00% | test_f1=0.8689
+2026-06-13 02:20:36,475 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/0/0 | dev_acc=96.00% | test_acc=94.50% | test_f1=0.9450
+2026-06-13 02:21:47,291 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/0/1 | dev_acc=96.00% | test_acc=85.50% | test_f1=0.8534
+2026-06-13 02:23:01,442 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/0/0 | dev_acc=96.00% | test_acc=97.50% | test_f1=0.9750
+2026-06-13 02:24:21,616 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/0/1 | dev_acc=96.00% | test_acc=87.00% | test_f1=0.8681
+2026-06-13 02:25:32,291 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/1/0 | dev_acc=80.50% | test_acc=72.00% | test_f1=0.7159
+2026-06-13 02:26:41,168 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/1/1 | dev_acc=80.50% | test_acc=81.00% | test_f1=0.8081
+2026-06-13 02:27:50,566 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/1/0 | dev_acc=80.50% | test_acc=77.50% | test_f1=0.7730
+2026-06-13 02:28:57,347 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/1/1 | dev_acc=80.50% | test_acc=87.00% | test_f1=0.8689
+2026-06-13 02:30:03,624 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/1/0 | dev_acc=80.50% | test_acc=94.50% | test_f1=0.9450
+2026-06-13 02:31:06,010 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/1/1 | dev_acc=80.50% | test_acc=85.50% | test_f1=0.8534
+2026-06-13 02:32:08,109 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/1/0 | dev_acc=80.50% | test_acc=97.50% | test_f1=0.9750
+2026-06-13 02:33:06,182 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/1/1 | dev_acc=80.50% | test_acc=87.00% | test_f1=0.8681
+2026-06-13 02:43:11,661 | Epoch 1/1 | train_loss=0.3613 | epoch_time_sec=488.16 | dev_trim=False: acc=95.00%, macro_f1=0.9500 | dev_trim=True: acc=95.00%, macro_f1=0.9500
+2026-06-13 02:43:11,662 | Training finished: Cantonese_Japanese__trainDur_5.0s__trainTrim_1 | Total time: 605.42s
+2026-06-13 02:44:07,976 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/0/0 | dev_acc=95.00% | test_acc=52.00% | test_f1=0.3763
+2026-06-13 02:45:05,497 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/0/1 | dev_acc=95.00% | test_acc=87.50% | test_f1=0.8750
+2026-06-13 02:46:03,109 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/0/0 | dev_acc=95.00% | test_acc=54.50% | test_f1=0.4262
+2026-06-13 02:46:56,773 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/0/1 | dev_acc=95.00% | test_acc=91.50% | test_f1=0.9149
+2026-06-13 02:47:53,222 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/0/0 | dev_acc=95.00% | test_acc=79.00% | test_f1=0.7803
+2026-06-13 02:48:50,379 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/0/1 | dev_acc=95.00% | test_acc=94.50% | test_f1=0.9450
+2026-06-13 02:49:45,848 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/0/0 | dev_acc=95.00% | test_acc=97.00% | test_f1=0.9700
+2026-06-13 02:50:42,594 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/0/1 | dev_acc=95.00% | test_acc=95.50% | test_f1=0.9550
+2026-06-13 02:51:39,710 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/1/0 | dev_acc=95.00% | test_acc=52.00% | test_f1=0.3763
+2026-06-13 02:52:36,418 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/1/1 | dev_acc=95.00% | test_acc=87.50% | test_f1=0.8750
+2026-06-13 02:53:32,837 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/1/0 | dev_acc=95.00% | test_acc=54.50% | test_f1=0.4262
+2026-06-13 02:54:27,394 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/1/1 | dev_acc=95.00% | test_acc=91.50% | test_f1=0.9149
+2026-06-13 02:55:22,673 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/1/0 | dev_acc=95.00% | test_acc=79.00% | test_f1=0.7803
+2026-06-13 02:56:16,124 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/1/1 | dev_acc=95.00% | test_acc=94.50% | test_f1=0.9450
+2026-06-13 02:57:10,385 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/1/0 | dev_acc=95.00% | test_acc=97.00% | test_f1=0.9700
+2026-06-13 02:58:03,263 | RESULT | pair=Cantonese_Japanese | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/1/1 | dev_acc=95.00% | test_acc=95.50% | test_f1=0.9550
+2026-06-13 02:58:03,274 | ======================================================================
+2026-06-13 02:58:03,274 | 🔥 STARTING EXPERIMENT: English_German
+2026-06-13 02:58:03,274 | Data -> Train: 1600 | Dev: 200 | Test: 200
+2026-06-13 02:58:03,274 | Average SSR: 0.12451618984123085
+2026-06-13 02:58:03,274 | ======================================================================
+2026-06-13 03:07:17,225 | Epoch 1/1 | train_loss=0.5967 | epoch_time_sec=447.87 | dev_trim=False: acc=86.50%, macro_f1=0.8629 | dev_trim=True: acc=87.50%, macro_f1=0.8743
+2026-06-13 03:07:17,226 | Training finished: English_German__trainDur_5.0s__trainTrim_0 | Total time: 553.91s
+2026-06-13 03:08:11,729 | RESULT | pair=English_German | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/0/0 | dev_acc=86.50% | test_acc=63.50% | test_f1=0.5789
+2026-06-13 03:09:05,180 | RESULT | pair=English_German | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/0/1 | dev_acc=86.50% | test_acc=82.50% | test_f1=0.8250
+2026-06-13 03:09:58,928 | RESULT | pair=English_German | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/0/0 | dev_acc=86.50% | test_acc=72.50% | test_f1=0.7025
+2026-06-13 03:10:51,014 | RESULT | pair=English_German | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/0/1 | dev_acc=86.50% | test_acc=85.00% | test_f1=0.8499
+2026-06-13 03:11:44,820 | RESULT | pair=English_German | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/0/0 | dev_acc=86.50% | test_acc=90.00% | test_f1=0.8992
+2026-06-13 03:12:36,396 | RESULT | pair=English_German | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/0/1 | dev_acc=86.50% | test_acc=89.00% | test_f1=0.8900
+2026-06-13 03:13:28,181 | RESULT | pair=English_German | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/0/0 | dev_acc=86.50% | test_acc=91.50% | test_f1=0.9146
+2026-06-13 03:14:22,010 | RESULT | pair=English_German | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/0/1 | dev_acc=86.50% | test_acc=90.50% | test_f1=0.9049
+2026-06-13 03:15:15,029 | RESULT | pair=English_German | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/1/0 | dev_acc=87.50% | test_acc=63.50% | test_f1=0.5789
+2026-06-13 03:16:08,804 | RESULT | pair=English_German | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/1/1 | dev_acc=87.50% | test_acc=82.50% | test_f1=0.8250
+2026-06-13 03:17:04,906 | RESULT | pair=English_German | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/1/0 | dev_acc=87.50% | test_acc=72.50% | test_f1=0.7025
+2026-06-13 03:17:57,806 | RESULT | pair=English_German | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/1/1 | dev_acc=87.50% | test_acc=85.00% | test_f1=0.8499
+2026-06-13 03:18:49,283 | RESULT | pair=English_German | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/1/0 | dev_acc=87.50% | test_acc=90.00% | test_f1=0.8992
+2026-06-13 03:19:36,886 | RESULT | pair=English_German | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/1/1 | dev_acc=87.50% | test_acc=89.00% | test_f1=0.8900
+2026-06-13 03:20:24,649 | RESULT | pair=English_German | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/1/0 | dev_acc=87.50% | test_acc=91.50% | test_f1=0.9146
+2026-06-13 03:21:43,140 | RESULT | pair=English_German | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/1/1 | dev_acc=87.50% | test_acc=90.50% | test_f1=0.9049
+2026-06-13 03:31:53,406 | Epoch 1/1 | train_loss=0.4735 | epoch_time_sec=468.33 | dev_trim=False: acc=86.50%, macro_f1=0.8649 | dev_trim=True: acc=87.00%, macro_f1=0.8699
+2026-06-13 03:31:53,406 | Training finished: English_German__trainDur_5.0s__trainTrim_1 | Total time: 610.20s
+2026-06-13 03:32:55,931 | RESULT | pair=English_German | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/0/0 | dev_acc=86.50% | test_acc=53.00% | test_f1=0.4234
+2026-06-13 03:34:02,077 | RESULT | pair=English_German | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/0/1 | dev_acc=86.50% | test_acc=82.50% | test_f1=0.8218
+2026-06-13 03:35:07,571 | RESULT | pair=English_German | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/0/0 | dev_acc=86.50% | test_acc=59.50% | test_f1=0.5245
+2026-06-13 03:36:13,634 | RESULT | pair=English_German | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/0/1 | dev_acc=86.50% | test_acc=83.50% | test_f1=0.8328
+2026-06-13 03:37:15,179 | RESULT | pair=English_German | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/0/0 | dev_acc=86.50% | test_acc=82.50% | test_f1=0.8201
+2026-06-13 03:38:12,916 | RESULT | pair=English_German | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/0/1 | dev_acc=86.50% | test_acc=89.50% | test_f1=0.8940
+2026-06-13 03:39:11,329 | RESULT | pair=English_German | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/0/0 | dev_acc=86.50% | test_acc=91.00% | test_f1=0.9099
+2026-06-13 03:40:11,699 | RESULT | pair=English_German | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/0/1 | dev_acc=86.50% | test_acc=93.00% | test_f1=0.9299
+2026-06-13 03:41:10,498 | RESULT | pair=English_German | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/1/0 | dev_acc=87.00% | test_acc=53.00% | test_f1=0.4234
+2026-06-13 03:42:09,859 | RESULT | pair=English_German | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/1/1 | dev_acc=87.00% | test_acc=82.50% | test_f1=0.8218
+2026-06-13 03:43:09,540 | RESULT | pair=English_German | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/1/0 | dev_acc=87.00% | test_acc=59.50% | test_f1=0.5245
+2026-06-13 03:44:08,442 | RESULT | pair=English_German | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/1/1 | dev_acc=87.00% | test_acc=83.50% | test_f1=0.8328
+2026-06-13 03:45:09,509 | RESULT | pair=English_German | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/1/0 | dev_acc=87.00% | test_acc=82.50% | test_f1=0.8201
+2026-06-13 03:46:08,646 | RESULT | pair=English_German | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/1/1 | dev_acc=87.00% | test_acc=89.50% | test_f1=0.8940
+2026-06-13 03:47:08,737 | RESULT | pair=English_German | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/1/0 | dev_acc=87.00% | test_acc=91.00% | test_f1=0.9099
+2026-06-13 03:48:05,496 | RESULT | pair=English_German | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/1/1 | dev_acc=87.00% | test_acc=93.00% | test_f1=0.9299
+2026-06-13 03:48:05,508 | ======================================================================
+2026-06-13 03:48:05,508 | 🔥 STARTING EXPERIMENT: English_Dutch
+2026-06-13 03:48:05,508 | Data -> Train: 1600 | Dev: 200 | Test: 200
+2026-06-13 03:48:05,508 | Average SSR: 0.1236032588741573
+2026-06-13 03:48:05,508 | ======================================================================
+2026-06-13 03:58:56,342 | Epoch 1/1 | train_loss=0.5266 | epoch_time_sec=522.87 | dev_trim=False: acc=85.50%, macro_f1=0.8527 | dev_trim=True: acc=85.50%, macro_f1=0.8527
+2026-06-13 03:58:56,342 | Training finished: English_Dutch__trainDur_5.0s__trainTrim_0 | Total time: 650.74s
+2026-06-13 04:00:01,460 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/0/0 | dev_acc=85.50% | test_acc=64.50% | test_f1=0.6310
+2026-06-13 04:01:06,008 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/0/1 | dev_acc=85.50% | test_acc=79.00% | test_f1=0.7883
+2026-06-13 04:02:10,084 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/0/0 | dev_acc=85.50% | test_acc=72.00% | test_f1=0.7159
+2026-06-13 04:03:13,161 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/0/1 | dev_acc=85.50% | test_acc=83.50% | test_f1=0.8332
+2026-06-13 04:04:17,087 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/0/0 | dev_acc=85.50% | test_acc=82.50% | test_f1=0.8248
+2026-06-13 04:05:24,480 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/0/1 | dev_acc=85.50% | test_acc=87.00% | test_f1=0.8681
+2026-06-13 04:06:31,231 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/0/0 | dev_acc=85.50% | test_acc=90.00% | test_f1=0.8992
+2026-06-13 04:07:39,250 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/0/1 | dev_acc=85.50% | test_acc=90.50% | test_f1=0.9043
+2026-06-13 04:08:44,580 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/1/0 | dev_acc=85.50% | test_acc=64.50% | test_f1=0.6310
+2026-06-13 04:09:50,870 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/1/1 | dev_acc=85.50% | test_acc=79.00% | test_f1=0.7883
+2026-06-13 04:10:58,812 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/1/0 | dev_acc=85.50% | test_acc=72.00% | test_f1=0.7159
+2026-06-13 04:12:02,347 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/1/1 | dev_acc=85.50% | test_acc=83.50% | test_f1=0.8332
+2026-06-13 04:13:06,522 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/1/0 | dev_acc=85.50% | test_acc=82.50% | test_f1=0.8248
+2026-06-13 04:14:10,930 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/1/1 | dev_acc=85.50% | test_acc=87.00% | test_f1=0.8681
+2026-06-13 04:15:12,219 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/1/0 | dev_acc=85.50% | test_acc=90.00% | test_f1=0.8992
+2026-06-13 04:16:14,843 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/1/1 | dev_acc=85.50% | test_acc=90.50% | test_f1=0.9043
+2026-06-13 04:27:17,685 | Epoch 1/1 | train_loss=0.6557 | epoch_time_sec=532.11 | dev_trim=False: acc=82.00%, macro_f1=0.8182 | dev_trim=True: acc=87.00%, macro_f1=0.8700
+2026-06-13 04:27:17,686 | Training finished: English_Dutch__trainDur_5.0s__trainTrim_1 | Total time: 662.80s
+2026-06-13 04:28:25,788 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/0/0 | dev_acc=82.00% | test_acc=58.00% | test_f1=0.5353
+2026-06-13 04:29:24,238 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/0/1 | dev_acc=82.00% | test_acc=78.50% | test_f1=0.7846
+2026-06-13 04:30:22,966 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/0/0 | dev_acc=82.00% | test_acc=61.50% | test_f1=0.5835
+2026-06-13 04:31:24,245 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/0/1 | dev_acc=82.00% | test_acc=80.00% | test_f1=0.7984
+2026-06-13 04:32:25,068 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/0/0 | dev_acc=82.00% | test_acc=71.50% | test_f1=0.7025
+2026-06-13 04:33:22,733 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/0/1 | dev_acc=82.00% | test_acc=84.50% | test_f1=0.8447
+2026-06-13 04:34:13,050 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/0/0 | dev_acc=82.00% | test_acc=81.50% | test_f1=0.8137
+2026-06-13 04:35:04,572 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/0/1 | dev_acc=82.00% | test_acc=86.00% | test_f1=0.8600
+2026-06-13 04:35:56,196 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/1/0 | dev_acc=87.00% | test_acc=58.00% | test_f1=0.5353
+2026-06-13 04:36:49,373 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/1/1 | dev_acc=87.00% | test_acc=78.50% | test_f1=0.7846
+2026-06-13 04:37:42,808 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/1/0 | dev_acc=87.00% | test_acc=61.50% | test_f1=0.5835
+2026-06-13 04:38:35,685 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/1/1 | dev_acc=87.00% | test_acc=80.00% | test_f1=0.7984
+2026-06-13 04:39:25,245 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/1/0 | dev_acc=87.00% | test_acc=71.50% | test_f1=0.7025
+2026-06-13 04:40:18,208 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/1/1 | dev_acc=87.00% | test_acc=84.50% | test_f1=0.8447
+2026-06-13 04:41:15,979 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/1/0 | dev_acc=87.00% | test_acc=81.50% | test_f1=0.8137
+2026-06-13 04:42:12,169 | RESULT | pair=English_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/1/1 | dev_acc=87.00% | test_acc=86.00% | test_f1=0.8600
+2026-06-13 04:42:12,185 | ======================================================================
+2026-06-13 04:42:12,185 | 🔥 STARTING EXPERIMENT: German_Dutch
+2026-06-13 04:42:12,185 | Data -> Train: 1600 | Dev: 200 | Test: 200
+2026-06-13 04:42:12,185 | Average SSR: 0.11936808977933862
+2026-06-13 04:42:12,185 | ======================================================================
+2026-06-13 04:51:53,590 | Epoch 1/1 | train_loss=0.6017 | epoch_time_sec=487.73 | dev_trim=False: acc=79.00%, macro_f1=0.7864 | dev_trim=True: acc=83.50%, macro_f1=0.8341
+2026-06-13 04:51:53,591 | Training finished: German_Dutch__trainDur_5.0s__trainTrim_0 | Total time: 581.39s
+2026-06-13 04:52:40,962 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/0/0 | dev_acc=79.00% | test_acc=53.00% | test_f1=0.3967
+2026-06-13 04:54:00,843 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/0/1 | dev_acc=79.00% | test_acc=85.00% | test_f1=0.8493
+2026-06-13 04:54:42,313 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/0/0 | dev_acc=79.00% | test_acc=59.50% | test_f1=0.5155
+2026-06-13 04:55:30,754 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/0/1 | dev_acc=79.00% | test_acc=86.50% | test_f1=0.8642
+2026-06-13 04:56:21,255 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/0/0 | dev_acc=79.00% | test_acc=67.00% | test_f1=0.6297
+2026-06-13 04:57:11,420 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/0/1 | dev_acc=79.00% | test_acc=85.50% | test_f1=0.8531
+2026-06-13 04:58:01,396 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/0/0 | dev_acc=79.00% | test_acc=75.50% | test_f1=0.7443
+2026-06-13 04:58:51,448 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/0/1 | dev_acc=79.00% | test_acc=78.00% | test_f1=0.7735
+2026-06-13 04:59:38,855 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/1/0 | dev_acc=83.50% | test_acc=53.00% | test_f1=0.3967
+2026-06-13 05:00:28,409 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=0/1/1 | dev_acc=83.50% | test_acc=85.00% | test_f1=0.8493
+2026-06-13 05:01:15,662 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/1/0 | dev_acc=83.50% | test_acc=59.50% | test_f1=0.5155
+2026-06-13 05:02:04,098 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=0/1/1 | dev_acc=83.50% | test_acc=86.50% | test_f1=0.8642
+2026-06-13 05:02:50,522 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/1/0 | dev_acc=83.50% | test_acc=67.00% | test_f1=0.6297
+2026-06-13 05:03:39,513 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=0/1/1 | dev_acc=83.50% | test_acc=85.50% | test_f1=0.8531
+2026-06-13 05:04:27,584 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/1/0 | dev_acc=83.50% | test_acc=75.50% | test_f1=0.7443
+2026-06-13 05:05:16,684 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=0/1/1 | dev_acc=83.50% | test_acc=78.00% | test_f1=0.7735
+2026-06-13 05:13:50,719 | Epoch 1/1 | train_loss=0.4090 | epoch_time_sec=418.71 | dev_trim=False: acc=93.50%, macro_f1=0.9349 | dev_trim=True: acc=95.00%, macro_f1=0.9500
+2026-06-13 05:13:50,719 | Training finished: German_Dutch__trainDur_5.0s__trainTrim_1 | Total time: 513.99s
+2026-06-13 05:14:39,193 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/0/0 | dev_acc=93.50% | test_acc=63.50% | test_f1=0.6272
+2026-06-13 05:15:28,856 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/0/1 | dev_acc=93.50% | test_acc=86.50% | test_f1=0.8647
+2026-06-13 05:16:16,911 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/0/0 | dev_acc=93.50% | test_acc=69.50% | test_f1=0.6909
+2026-06-13 05:17:01,468 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/0/1 | dev_acc=93.50% | test_acc=93.50% | test_f1=0.9349
+2026-06-13 05:17:47,352 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/0/0 | dev_acc=93.50% | test_acc=83.50% | test_f1=0.8347
+2026-06-13 05:18:33,470 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/0/1 | dev_acc=93.50% | test_acc=97.50% | test_f1=0.9750
+2026-06-13 05:19:02,711 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/0/0 | dev_acc=93.50% | test_acc=95.50% | test_f1=0.9550
+2026-06-13 05:19:23,005 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/0/1 | dev_acc=93.50% | test_acc=96.50% | test_f1=0.9650
+2026-06-13 05:20:07,837 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/1/0 | dev_acc=95.00% | test_acc=63.50% | test_f1=0.6272
+2026-06-13 05:20:53,771 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=0.5s | trim(T/D/Te)=1/1/1 | dev_acc=95.00% | test_acc=86.50% | test_f1=0.8647
+2026-06-13 05:21:39,478 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/1/0 | dev_acc=95.00% | test_acc=69.50% | test_f1=0.6909
+2026-06-13 05:22:24,514 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=1.0s | trim(T/D/Te)=1/1/1 | dev_acc=95.00% | test_acc=93.50% | test_f1=0.9349
+2026-06-13 05:22:59,497 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/1/0 | dev_acc=95.00% | test_acc=83.50% | test_f1=0.8347
+2026-06-13 05:23:42,143 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=2.0s | trim(T/D/Te)=1/1/1 | dev_acc=95.00% | test_acc=97.50% | test_f1=0.9750
+2026-06-13 05:24:25,352 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/1/0 | dev_acc=95.00% | test_acc=95.50% | test_f1=0.9550
+2026-06-13 05:25:05,941 | RESULT | pair=German_Dutch | train_dur=5.0s | test_dur=5.0s | trim(T/D/Te)=1/1/1 | dev_acc=95.00% | test_acc=96.50% | test_f1=0.9650
+2026-06-13 05:25:05,947 | 🎉 All experiments finished flawlessly.

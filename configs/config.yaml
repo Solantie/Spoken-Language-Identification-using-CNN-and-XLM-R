@@ -1,0 +1,53 @@
+experiment:
+  active_task: binary
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.001
+  num_workers: 0
+  target_sr: 16000
+  compute_silence_stats: false
+
+paths:
+  base_data: "data/metadata_by_language"
+  output_dir: "results/lid_silence_experiment_outputs"
+
+audio:
+  db_threshold: -40.0
+  frame_ms: 20.0
+  hop_ms: 10.0
+  eps: 1.0e-10
+
+# List of lists: [lang0_id, lang1_id, lang0_name, lang1_name]
+tasks:
+  binary:
+    num_classes: 2
+    language_pairs:
+      - [0, 1, "Mandarin", "Cantonese"]
+      - [0, 2, "Mandarin", "Japanese"]
+      - [1, 2, "Cantonese", "Japanese"]
+      - [5, 3, "English", "German"]
+      - [5, 4, "English", "Dutch"]
+      - [3, 4, "German", "Dutch"]
+  output_subdir: "binary_pair_outputs"
+
+    # multiclass:
+    #   num_classes: 6
+    #   languages:
+    #     - [0, "cmn_hans_cn", "Mandarin"]
+    #     - [1, "yue_hant_hk", "Cantonese"]
+    #     - [2, "ja_jp", "Japanese"]
+    #     - [3, "de_de", "German"]
+    #     - [4, "nl_nl", "Dutch"]
+    #     - [5, "en_us", "American English"]
+    #   output_subdir: "multiclass_6label_outputs"
+
+durations:
+  train: [5.0]
+  test: [0.5, 1.0, 2.0, 5.0]
+  # train: [1.28]
+  # test: [1.28]
+
+trim_options:
+  train: [false, true]
+  dev: [false, true]
+  test: [false, true]

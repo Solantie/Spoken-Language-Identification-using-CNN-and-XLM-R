@@ -1,0 +1,7 @@
+﻿language_name,lang_id,language,available_test_samples,sampled_samples,output_csv
+Mandarin,0,cmn_hans_cn,945,100,D:\Python Programming\pycharm\Metadata_extraction\data\new_test_metadata\cmn_hans_cn\test.csv
+Cantonese,1,yue_hant_hk,819,100,D:\Python Programming\pycharm\Metadata_extraction\data\new_test_metadata\yue_hant_hk\test.csv
+Japanese,2,ja_jp,650,100,D:\Python Programming\pycharm\Metadata_extraction\data\new_test_metadata\ja_jp\test.csv
+German,3,de_de,862,100,D:\Python Programming\pycharm\Metadata_extraction\data\new_test_metadata\de_de\test.csv
+Dutch,4,nl_nl,364,100,D:\Python Programming\pycharm\Metadata_extraction\data\new_test_metadata\nl_nl\test.csv
+American English,5,en_us,647,100,D:\Python Programming\pycharm\Metadata_extraction\data\new_test_metadata\en_us\test.csv
